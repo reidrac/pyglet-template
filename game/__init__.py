@@ -84,7 +84,7 @@ class Main(pyglet.window.Window):
     def update(self, dt):
         """Update game state"""
 
-        # this is an example; don update the state if paused
+        # this is an example; don't update the state if paused
         if self.paused:
             return
 
