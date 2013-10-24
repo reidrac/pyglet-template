@@ -24,13 +24,15 @@ Getting Pyglet current and simplifying distribution
 
 You can get Pyglet current (1.2) in two different ways:
 
-1. Using Mecurial:
+*Using Mecurial*
 
 You need to install Mercurial first, then go to a temporary directory and run:
 
     hg clone https://pyglet.googlecode.com/hg/ pyglet-current
 
-2. Downloading a ZIP from Google Code:
+*Downloading a ZIP from Google Code*
+
+You only need to download `tip.zip` that will contain the latest version from the repository:
 
     wget http://pyglet.googlecode.com/archive/tip.zip
 
