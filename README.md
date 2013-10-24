@@ -22,12 +22,23 @@ Juan J. Martinez <jjm@usebox.net>
 Getting Pyglet current and simplifying distribution
 ---------------------------------------------------
 
-You need to install Mercurial first, then:
+You can get Pyglet current (1.2) in two different ways:
 
-1. Go to a temporary directory and: `hg clone https://pyglet.googlecode.com/hg/ pyglet-current`
-2. `cd pyglet-current`
-3. `python setup.py build`
-4. copy resulting `pyglet/` directory from `_build/lib/` to your game directory.
+1. Using Mecurial:
+
+You need to install Mercurial first, then go to a temporary directory and run:
+
+    hg clone https://pyglet.googlecode.com/hg/ pyglet-current
+
+2. Downloading a ZIP from Google Code:
+
+    wget http://pyglet.googlecode.com/archive/tip.zip
+
+Then you can build the code:
+
+1. `cd pyglet-*` (will be `current` or the hash of the latest change if you used `tip.zip`)
+2. `python setup.py build`
+3. copy resulting `pyglet/` directory from `_build/lib/` to your game directory.
 
 In that way you can distribute Pyglet current with your game.
 
