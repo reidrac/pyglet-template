@@ -17,30 +17,3 @@ The most relevant bits are:
 This code is in the public domain, use it for anything you want.
 
 Juan J. Martinez <jjm@usebox.net>
-
-
-Getting Pyglet current and simplifying distribution
----------------------------------------------------
-
-You can get Pyglet current (1.2) in two different ways:
-
-*Using Mecurial*
-
-You need to install Mercurial first, then go to a temporary directory and run:
-
-    hg clone https://pyglet.googlecode.com/hg/ pyglet-current
-
-*Downloading a ZIP from Google Code*
-
-You only need to download `tip.zip` that will contain the latest version from the repository:
-
-    wget http://pyglet.googlecode.com/archive/tip.zip
-
-Then you can build the code:
-
-1. `cd pyglet-*` (will be `current` or the hash of the latest change if you used `tip.zip`)
-2. `python setup.py build`
-3. copy resulting `pyglet/` directory from `_build/lib/` to your game directory.
-
-In that way you can distribute Pyglet current with your game.
-
